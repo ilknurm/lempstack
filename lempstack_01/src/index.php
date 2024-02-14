@@ -13,3 +13,7 @@
     </body>
     </body>
 </html>
+<?php
+phpinfo();
+?>
+
