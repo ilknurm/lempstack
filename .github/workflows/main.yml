@@ -20,5 +20,7 @@ jobs:
         run: |
           
          ssh "-i ${PRIVATE_KEY}" ${USER_NAME}@${HOSTNAME}
+         cd /home/lempstack
+         git pull
 
            
