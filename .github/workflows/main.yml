@@ -18,7 +18,7 @@ jobs:
           USER_NAME: ${{ secrets.USER_NAME }}
       
         run: |
-          ssh -i "${PRIVATE_KEY}" ${USER_NAME}@${HOSTNAME} "cd /home/lempstack && git pull"
+          ssh -i "${PRIVATE_KEY}" ${USER_NAME}@${HOSTNAME} && cd /home/lempstack && git pull
 
 
            
